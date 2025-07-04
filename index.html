@@ -13,59 +13,71 @@
     <link rel="shortcut icon" href="https://www.bookmyforex.com/assets/www/images/favicon.ico" />
 
     <!-- ✅ Preconnect to font domains early -->
+    <!-- 🌐 Preconnect to Google Fonts domains -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <!-- ✅ Google Fonts: Poppins & Baloo Bhaina 2 -->
+    <!-- ⏫ Preload and non-blocking load of Poppins -->
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-          onload="this.onload=null;this.rel='stylesheet'">
+        onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
     </noscript>
 
+    <!-- ⏫ Preload and non-blocking load of Baloo Bhaina 2 -->
     <link rel="preload" as="style"
-          href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400..800&display=swap"
-          onload="this.onload=null;this.rel='stylesheet'">
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400..800&display=swap"
+        onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400..800&display=swap">
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400..800&display=swap">
     </noscript>
 
     <!-- ✅ Custom font overrides -->
     <link rel="preload" href="assets/css/font.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
-      <link rel="stylesheet" href="assets/css/font.css">
+        <link rel="stylesheet" href="assets/css/font.css">
     </noscript>
     <link rel="preload" href="/fonts/Omnes-Regular.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/Omnes-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/Omnes-Medium.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/Omnes-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/Omnes-Medium.woff2" as="font" type="font/woff2" crossorigin>
 
 
     <!-- ✅ Bootstrap 3.3.7 (block loading to prevent layout shift) -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media="print"
+        onload="this.onload=null;this.media='all';">
+    <noscript>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </noscript>
+
 
     <!-- ✅ Platform styles (blocking, likely critical) -->
     <link rel="stylesheet" type="text/css"
-          href="https://cdn.bookmyforex.com/cms/moneytransfer/mobile/css/bmf-common-min-style.css">
+        href="https://cdn.bookmyforex.com/cms/moneytransfer/mobile/css/bmf-common-min-style.css">
     <link rel="stylesheet" type="text/css"
-          href="https://cdn.bookmyforex.com/common-header-footer-style/common-header-footer-style.css">
+        href="https://cdn.bookmyforex.com/common-header-footer-style/common-header-footer-style.css">
 
     <!-- ✅ Bootstrap 5.3.3 (non-blocking for performance) -->
     <link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-          onload="this.onload=null;this.rel='stylesheet'">
+        onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     </noscript>
 
     <!-- ✅ Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-          integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-          crossorigin="anonymous" referrerpolicy="no-referrer" />
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- ✅ Preload important images -->
-    <link rel="preload" as="image" href="https://storage.googleapis.com/cms-attachments/assets/images/BMFMMT-LOGO.svg" type="image/svg+xml">
-    <link rel="preload" as="image" href="/assets/images/ijayryb4dir1k2sacu2x.avif" type="image/avif" fetchpriority="high">
-    <link rel="preload" as="image" href="assets/images/Group_mb.webp" type="image/webp" fetchpriority="high" media="(max-width: 768px)">
-        <link rel="preload" as="image" href="assets/images/Group1707488041_compressed.avif" type="image/avif" fetchpriority="high" media="(max-width: 768px)">
+    <link rel="preload" as="image" href="https://storage.googleapis.com/cms-attachments/assets/images/BMFMMT-LOGO.svg"
+        type="image/svg+xml">
+    <link rel="preload" as="image" href="/assets/images/ijayryb4dir1k2sacu2x.avif" type="image/avif"
+        fetchpriority="high">
+    <link rel="preload" as="image" href="assets/images/Group_mb.webp" type="image/webp" fetchpriority="high"
+        media="(max-width: 768px)">
+    <link rel="preload" as="image" href="assets/images/Group1707488041_compressed.avif" type="image/avif"
+        fetchpriority="high" media="(max-width: 768px)">
 
     <!-- ✅ Main styles -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -73,19 +85,19 @@
     <!-- ✅ Responsive styles (non-blocking) -->
     <link rel="preload" href="assets/css/responsive.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
-      <link rel="stylesheet" href="assets/css/responsive.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
     </noscript>
 
     <!-- ✅ Inline critical overrides -->
     <style type="text/css">
-      .expanedList {
-        width: 100%;
-        background: #0A3562;
-        padding: 10px;
-        margin: 10px 0 0 0;
-      }
+        .expanedList {
+            width: 100%;
+            background: #0A3562;
+            padding: 10px;
+            margin: 10px 0 0 0;
+        }
     </style>
-    
+
 </head>
 
 <body>
@@ -748,25 +760,27 @@
                                     <img src="assets/images/ijayryb4dir1k2sacu2x.avif" class="img-fluid rounded-start"
                                         fetchpriority="high" loading="eager" decoding="async" alt="..." />
                                 </div>
-                                <div class="col-md-8"> <!-- Reserve space -->
-                                  <p class="trust-pilots ms-0 d-block d-md-none">
-                                    <img src="assets/images/trust-piolet-dextop.webp"
-                                         alt="Trustpilot"> <!-- ✅ Prevent image shift -->
+                                <div class="col-md-8">
+                                    <!-- Reserve space -->
+                                    <p class="trust-pilots ms-0 d-block d-md-none">
+                                        <img src="assets/images/trust-piolet-dextop.webp" alt="Trustpilot">
+                                        <!-- ✅ Prevent image shift -->
 
-                                    &nbsp;4.4/5 - Excellent From 8,000+ reviews
-                                    <a href="#">Read All Reviews</a>
-                                  </p>
+                                        &nbsp;4.4/5 - Excellent From 8,000+ reviews
+                                        <a href="#">Read All Reviews</a>
+                                    </p>
 
-                                  <div class="card-body slide px-0">
-                                    <h2 class="card-title">India's #1 Zero<br><span>Markup Forex Card</span></h2>
+                                    <div class="card-body slide px-0">
+                                        <h2 class="card-title">India's #1 Zero<br><span>Markup Forex Card</span></h2>
 
-                                    <ul class="slide-list" id="tabs">
-                                      <li>Zero markup* interbank linked rates</li>
-                                      <li>Same-day express delivery</li>
-                                      <li>Zero Issuance, reload, unload, and annual fees</li>
-                                      <li>Zero FX Rate Fluctuation Risks, Instant Reloads & Refunds to INR Wallet</li>
-                                    </ul>
-                                  </div>
+                                        <ul class="slide-list" id="tabs">
+                                            <li>Zero markup* interbank linked rates</li>
+                                            <li>Same-day express delivery</li>
+                                            <li>Zero Issuance, reload, unload, and annual fees</li>
+                                            <li>Zero FX Rate Fluctuation Risks, Instant Reloads & Refunds to INR Wallet
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
 
                             </div>
@@ -781,25 +795,27 @@
                                     <img src="assets/images/ijayryb4dir1k2sacu2x.avif" class="img-fluid rounded-start"
                                         fetchpriority="high" loading="eager" decoding="async" alt="..." />
                                 </div>
-                                <div class="col-md-8"> <!-- Reserve space -->
-                                  <p class="trust-pilots ms-0 d-block d-md-none">
-                                    <img src="assets/images/trust-piolet-dextop.webp"
-                                         alt="Trustpilot"> <!-- ✅ Prevent image shift -->
+                                <div class="col-md-8">
+                                    <!-- Reserve space -->
+                                    <p class="trust-pilots ms-0 d-block d-md-none">
+                                        <img src="assets/images/trust-piolet-dextop.webp" alt="Trustpilot">
+                                        <!-- ✅ Prevent image shift -->
 
-                                    &nbsp;4.4/5 - Excellent From 8,000+ reviews
-                                    <a href="#">Read All Reviews</a>
-                                  </p>
+                                        &nbsp;4.4/5 - Excellent From 8,000+ reviews
+                                        <a href="#">Read All Reviews</a>
+                                    </p>
 
-                                  <div class="card-body slide px-0">
-                                    <h2 class="card-title">India's #1 Zero<br><span>Markup Forex Card</span></h2>
+                                    <div class="card-body slide px-0">
+                                        <h2 class="card-title">India's #1 Zero<br><span>Markup Forex Card</span></h2>
 
-                                    <ul class="slide-list" id="tabs">
-                                      <li>Zero markup* interbank linked rates</li>
-                                      <li>Same-day express delivery</li>
-                                      <li>Zero Issuance, reload, unload, and annual fees</li>
-                                      <li>Zero FX Rate Fluctuation Risks, Instant Reloads & Refunds to INR Wallet</li>
-                                    </ul>
-                                  </div>
+                                        <ul class="slide-list" id="tabs">
+                                            <li>Zero markup* interbank linked rates</li>
+                                            <li>Same-day express delivery</li>
+                                            <li>Zero Issuance, reload, unload, and annual fees</li>
+                                            <li>Zero FX Rate Fluctuation Risks, Instant Reloads & Refunds to INR Wallet
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
 
                             </div>
@@ -814,25 +830,27 @@
                                     <img src="assets/images/ijayryb4dir1k2sacu2x.avif" class="img-fluid rounded-start"
                                         fetchpriority="high" loading="eager" decoding="async" alt="..." />
                                 </div>
-                                <div class="col-md-8"> <!-- Reserve space -->
-                                  <p class="trust-pilots ms-0 d-block d-md-none">
-                                    <img src="assets/images/trust-piolet-dextop.webp"
-                                         alt="Trustpilot"> <!-- ✅ Prevent image shift -->
+                                <div class="col-md-8">
+                                    <!-- Reserve space -->
+                                    <p class="trust-pilots ms-0 d-block d-md-none">
+                                        <img src="assets/images/trust-piolet-dextop.webp" alt="Trustpilot">
+                                        <!-- ✅ Prevent image shift -->
 
-                                    &nbsp;4.4/5 - Excellent From 8,000+ reviews
-                                    <a href="#">Read All Reviews</a>
-                                  </p>
+                                        &nbsp;4.4/5 - Excellent From 8,000+ reviews
+                                        <a href="#">Read All Reviews</a>
+                                    </p>
 
-                                  <div class="card-body slide px-0">
-                                    <h2 class="card-title">India's #1 Zero<br><span>Markup Forex Card</span></h2>
+                                    <div class="card-body slide px-0">
+                                        <h2 class="card-title">India's #1 Zero<br><span>Markup Forex Card</span></h2>
 
-                                    <ul class="slide-list" id="tabs">
-                                      <li>Zero markup* interbank linked rates</li>
-                                      <li>Same-day express delivery</li>
-                                      <li>Zero Issuance, reload, unload, and annual fees</li>
-                                      <li>Zero FX Rate Fluctuation Risks, Instant Reloads & Refunds to INR Wallet</li>
-                                    </ul>
-                                  </div>
+                                        <ul class="slide-list" id="tabs">
+                                            <li>Zero markup* interbank linked rates</li>
+                                            <li>Same-day express delivery</li>
+                                            <li>Zero Issuance, reload, unload, and annual fees</li>
+                                            <li>Zero FX Rate Fluctuation Risks, Instant Reloads & Refunds to INR Wallet
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
 
                             </div>
@@ -4355,8 +4373,8 @@
 
             // ----- Chart + Currency Select -----
             function setupChart() {
-                const mockRates = {USD: 83, EUR: 90, GBP: 105, AUD: 55, CAD: 61, JPY: 0.56, SGD: 62};
-                const currencyFlags = {USD: 'us', EUR: 'eu', GBP: 'gb', AUD: 'au', CAD: 'ca', JPY: 'jp', SGD: 'sg'};
+                const mockRates = { USD: 83, EUR: 90, GBP: 105, AUD: 55, CAD: 61, JPY: 0.56, SGD: 62 };
+                const currencyFlags = { USD: 'us', EUR: 'eu', GBP: 'gb', AUD: 'au', CAD: 'ca', JPY: 'jp', SGD: 'sg' };
 
                 const $currencySelect = $('#currencySelect'),
                     $forexAmount = $('#forexAmount'),
@@ -4446,18 +4464,18 @@
                         options: {
                             responsive: true,
                             animation: false,
-                            plugins: {legend: {display: false}},
+                            plugins: { legend: { display: false } },
                             scales: {
                                 x: {
                                     ticks: {
                                         color: 'black',
-                                        font: ctx => ({size: window.innerWidth < 768 ? 10 : 12}),
-                                        callback(v) {return this.getLabelForValue(v);}
+                                        font: ctx => ({ size: window.innerWidth < 768 ? 10 : 12 }),
+                                        callback(v) { return this.getLabelForValue(v); }
                                     }
                                 },
                                 y: {
                                     beginAtZero: true,
-                                    ticks: {callback: v => v.toLocaleString('en-IN')}
+                                    ticks: { callback: v => v.toLocaleString('en-IN') }
                                 }
                             }
                         }
@@ -4481,14 +4499,14 @@
 
             // ----- How to Order: Group step toggling -----
             const groups = [
-                {start: 1, end: 8, current: 1},
-                {start: 9, end: 12, current: 9},
-                {start: 13, end: 16, current: 13}
+                { start: 1, end: 8, current: 1 },
+                { start: 9, end: 12, current: 9 },
+                { start: 13, end: 16, current: 13 }
             ];
             const intervals = [];
 
             function toggleStepInGroup(group) {
-                const {start, end, current} = group;
+                const { start, end, current } = group;
 
                 for (let i = start; i <= end; i++) {
                     const content = document.getElementById(`step-content-${i}`);
@@ -4505,7 +4523,7 @@
 
             function startAllGroups() {
                 groups.forEach(group => {
-                    toggleStepInGroup({...group});
+                    toggleStepInGroup({ ...group });
                     const interval = setInterval(() => toggleStepInGroup(group), 5000);
                     intervals.push(interval);
                 });
@@ -4516,7 +4534,7 @@
             function handleClickStep(step) {
                 console.log("Clicked step:", step);
 
-                const group = groups.find(({start, end}) => step >= start && step <= end);
+                const group = groups.find(({ start, end }) => step >= start && step <= end);
                 if (!group) return;
 
                 const isSameStep = step === lastClickedStep;
@@ -4660,7 +4678,7 @@
                         iframe.style.height = "100%";
 
                         facade.replaceChildren(iframe);
-                    }, {once: true});
+                    }, { once: true });
                 };
 
                 if ("IntersectionObserver" in window) {
@@ -4671,7 +4689,7 @@
                                 obs.unobserve(entry.target);
                             }
                         });
-                    }, {rootMargin: "200px", threshold: 0.1});
+                    }, { rootMargin: "200px", threshold: 0.1 });
 
                     facades.forEach(facade => {
                         if (facade.classList.contains("eager-load")) {
