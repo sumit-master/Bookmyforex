@@ -822,6 +822,24 @@
       font-size: 16px;
 
     }
+
+
+    /* -------------------New Page Start-------------- */
+    .link_button {
+      padding: 5px 10px !important;
+    }
+    .pay-bnr-btn {
+      font-size: 16px;
+    }
+    .download_step_section::before {
+      width: 900px;
+      height: 1000px;
+      bottom: 22%;
+      right: 0;
+    }
+    .blue_div {
+      height: 27rem;
+    }
   }
 
   @media(max-width: 991px) {
@@ -1705,6 +1723,65 @@
     }
 
 
+
+    /*--------------------------------New Page Start----------------*/
+    .banner_image img {
+      width: 52%;
+    }
+    .scan_qr_image img {
+      width: 69%;
+    }
+    .blue_div {
+      height: 21rem;
+    }
+    .link_button {
+      padding: 5px 5px !important;
+      gap: 8px;
+    }
+    .download_step_section .pay-bnr-btn {
+      font-size: 11.5px !important;
+    }
+    .banner.banner_forex {
+      padding-left: 30px !important;
+      padding-right: 30px !important;
+    }
+    .download_step_section {
+      padding: 0 15px;
+    }
+    .qr_section .mb-qr img {
+      width: 55% !important;
+    }
+    .qr_section {
+      padding-top: 70px;
+      padding-bottom: 70px;
+    }
+    .btn-blue {
+      margin-top: 2rem;
+    }
+    .banner_head_width {
+      margin-bottom: 2px;
+    }
+    .download_step_wrapper {
+      padding: 50px 0px 30px 30px;
+    }
+    .download_step_section .para_text {
+      padding-right: 10px;
+    }
+    .download_step_section .link_button img {
+      width: 15%;
+    }
+    .blue_div {
+      padding-left: 6rem;
+    }
+    .pad_section_right .storeed img{
+      width: 250px;
+    }
+    .storeed img {
+      width: 169px;
+    }
+    .banner_forex .before-image-layer {
+      width: 449px !important;
+    }
   }
 
 
@@ -2086,7 +2163,7 @@
       display: flex;
       flex-direction: column;
     }
-
+    
 
   }
 
@@ -3044,6 +3121,213 @@
     .custom-table-wrapper {
       overflow: scroll;
     }
+
+
+    /*------------------------------New Page Start----------------*/
+
+    .banner.banner_forex{
+      display: block;
+    }
+
+    .up-image{
+      flex-direction: column-reverse;
+    }
+
+    .down-image{
+      flex-direction: column;
+    }
+
+    .up-image .banner_image {
+      padding-bottom: 30px;
+    }
+
+    .vertical-line {
+      left: 5%;
+    }
+
+    .dot {
+      left: 5%;
+    }
+
+    .dot-1 {
+      top: 2.5%;
+    }
+
+    .dot-2 {
+      top: 21%;
+    }
+
+    .dot-3 {
+      top: 36.5%;
+    }
+
+    .dot-4 {
+      top: 49.5%;
+    }
+
+    .dot-5 {
+      top: 62%;
+    }
+
+    .dot-6 {
+      top: 73%;
+    }
+
+    .dot-7 {
+      top: 87.5%;
+    }
+
+    .download_step_image {
+      width: 100%;
+      text-align-last: center;
+      padding-bottom: 50px;
+    }
+
+    .pad_section_right_wrapper {
+      width: 100%;
+      padding-left: 30px;
+    }
+
+    .download_step_image2 {
+      width: 100%;
+      justify-content: start !important;
+      padding-bottom: 50px;
+    }
+
+    .download_step_wrapper {
+      padding: 50px 0px 50px 0px;
+    }
+
+    .blue_div {
+      background-image: url('/assets/images/mobile-rotate-blue.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: top left;
+      padding-left: 30px;
+      padding-right: 6rem;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .in-desktop {
+      display: none;
+    }
+
+    .in-mobile {
+      display: block;
+    }
+
+    .banner_forex {
+      padding-top: 40px !important;
+      padding-bottom: 60px !important;
+    }
+
+    .banner_head_width {
+      margin-bottom: 12px;
+    }
+
+    .btn-blue {
+      background: transparent;
+      border: none;
+      border-radius: 0;
+      color: #004481;
+      text-decoration: underline;
+      font-size: 15px;
+      font-weight: 700;
+      padding: 0;
+      margin-top: 2rem;
+      display: inline-flex;
+      align-items: center;
+      position: relative;
+    }
+    
+    /* Add arrow using ::after */
+    .btn-blue::after {
+      content: '';
+      background: url('/assets/images/only-arrow-inpage.png');
+      margin-left: 8px;
+      font-size: 20px;
+      color: #004481;
+      transition: transform 0.3s ease;
+      text-decoration: none;
+      position: absolute;
+      top: 34%;
+      height: 10px;
+      right: -17%;
+      width: 20px;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+    
+    /* Optional hover effect for arrow */
+    .btn-blue:hover::after {
+      transform: translateX(3px);
+    }
+
+    .storeed img {
+      width: 280px;
+    }
+
+    .pad_section_right .storeed img {
+      width: 280px;
+    }
+
+    .scan_qr_image img {
+      width: 80%;
+    }
+
+    .qr_section .mb-qr img {
+      width: 75% !important;
+    }
+
+    .pattern-after::after {
+      width: 400px;
+      height: 400px;
+      top: 4%;
+      left: 0%;
+    }
+
+    .banner_forex .before-image-layer {
+      top: -15%;
+      left: -10%;
+      width: 260px !important;
+      height: 300px;
+    }
+
+    .banner.banner_forex::before {
+      top: 12%;
+      left: -19%;
+      height: 700px;
+      width: 700px;
+    }
+
+    .qr_section {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .qr_section::after {
+      content: '';
+      background: url('/assets/images/mobile-last-pattren.png');
+      position: absolute;
+      background-size: contain;
+      background-repeat: no-repeat;
+      top: -24%;
+      right: 0;
+      left: 0;
+      width: 500px;
+      height: 527px;
+      z-index: -1;
+    }
+
+    .download_step_section .main_head {
+      padding-bottom: 10px;
+    }
+
+
 
   }
 

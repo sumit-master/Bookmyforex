@@ -2121,7 +2121,6 @@ h2.faq-head {
 
 .collapsed {
   color: rgba(255, 255, 255, 0.70) !important;
-  font-feature-settings: 'liga' off, 'clig' off;
   font-family: Omnes;
   font-size: 21.5px;
   font-style: normal;
@@ -2130,7 +2129,6 @@ h2.faq-head {
 
 .accordion-button.question {
   color: #FFF;
-  font-feature-settings: 'liga' off, 'clig' off;
   font-family: Omnes;
   font-size: 21.5px;
   font-style: normal;
@@ -3253,8 +3251,263 @@ a:hover {
 }
 
 
-.mb-imgtailor{
+.mb-imgtailor {
   width: 240px;
   height: 236px;
   max-width: none;
+}
+
+
+
+/* ======================================================================== New Page =============================================================================== */
+.btn-blue {
+  border-radius: 20px;
+  background: var(--Linear, linear-gradient(46deg, #0E1D40 14.95%, #0B305A 30.71%, #055C96 68.7%, #036EAE 86.61%));
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  padding: 16px 40px;
+  border: none;
+  margin-top: 3rem;
+}
+
+.banner_head_width {
+  width: 85%;
+  margin-bottom: 18px;
+}
+
+.banner_forex {
+  padding-top: 70px !important;
+  padding-bottom: 100px !important;
+}
+
+.banner_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner_image img {
+  width: 44%;
+  z-index: 2;
+}
+
+.download_step {
+  border-radius: 30px;
+  background: linear-gradient(180deg, #FBFBFC 0%, #FAFAFA 100%);
+  position: relative;
+}
+
+
+
+
+
+ 
+.download_step_image img {
+    width: 72%;
+}
+
+.download_step_image2 img {
+    width: 90%;
+}
+
+
+.scan_qr_image{
+  display: flex;
+    justify-content: end;
+}
+
+.scan_qr_image img{
+  width: 55%;
+}
+.playbuttons li{
+  margin-bottom: 1rem;
+}
+
+.steps{
+  color: #214360;
+font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+
+}
+.download_step_image{
+  width: 50%;
+  position: relative;
+}
+
+.download_step_image2{
+  width: 50%;
+  position: relative;
+}
+
+.pad_section_right_wrapper{
+  width: 50%;
+  position: relative;
+}
+.download_step_wrapper {
+    gap: 10%;
+    padding: 50px 0px 30px 50px;
+}
+
+.steps_head{
+  font-size: 39px;
+}
+.link_button img{
+  width: fit-content;
+}
+
+.link_button{
+    display: flex;
+    padding: 10px 20px !important;
+    align-items: center;
+    gap: 15px;
+}
+
+.blue_div {
+    background-image: url('/assets/images/blue_div.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top right;
+    height: 32rem;
+    padding-left: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+}
+
+.color-white{
+  color: #fff !important;
+}
+
+.download_step_wrapper2_right {
+    gap: 10%;
+    padding: 50px 0px 30px 0px;
+}
+
+.qr_section{
+    padding-top: 80px;
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+
+.vertical-line {
+  position: absolute;
+  left: 50%;
+  top: 1.7%;
+  bottom: 1%;
+  width: 3px;
+  background-color: #214360;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.dot {
+  position: absolute;
+  left: 50%;
+  width: 14px;
+  height: 14px;
+  background-color: #003a7b;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+}
+
+.dot-1 {
+  top: 5%;
+}
+
+.dot-2 {
+  top: 24%;
+}
+
+.dot-3 {
+  top: 41%;
+}
+
+.dot-4 {
+  top: 55%;
+}
+
+.dot-5 {
+  top: 66%;
+}
+
+.dot-6 {
+  top: 80%;
+}
+
+.dot-7 {
+  top: 92.5%;
+}
+
+.download_step_section {
+  position: relative;
+  overflow: hidden;
+}
+
+.download_step_section::after {
+  content: '';
+  position: absolute;
+  background: url('/assets/images/steps-after-back.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 600px;
+  height: 1140px;
+  top: 4%;
+  right: 0;
+  z-index: -1;
+}
+
+.download_step_section::before {
+  content: '';
+  position: absolute;
+  background: url('/assets/images/steps-last-back.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1400px;
+  height: 1550px;
+  bottom: 19%;
+  right: 10%;
+  z-index: -1;
+}
+
+.pattern-after {
+  position: relative;
+}
+
+.pattern-after::after {
+  content: '';
+  position: absolute;
+  background: url('/assets/images/steps-before-back.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+  top: 4%;
+  left: -19%;
+  z-index: -1;
+}
+
+.banner_forex .before-image-layer {
+  position: absolute;
+  top: -50%;
+  left: -10%;
+  width: 590px;
+  height: 520px;
+  background-image: url('/assets/images/Group1.webp');
+  background-repeat: no-repeat;
+  background-size: contain;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.in-mobile {
+  display: none;
 }
