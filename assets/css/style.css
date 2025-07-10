@@ -844,7 +844,7 @@ section.section_2 {
   font-weight: 400;
   line-height: 25px;
   /* 164.706% */
-  max-width: 715px;
+  max-width: 440px;
 }
 
 .para_text span {
@@ -3299,6 +3299,7 @@ a:hover {
   border-radius: 30px;
   background: linear-gradient(180deg, #FBFBFC 0%, #FAFAFA 100%);
   position: relative;
+  padding: 0px 0px 100px 0px;
 }
 
 
@@ -3314,6 +3315,13 @@ a:hover {
     width: 90%;
 }
 
+ul.storeed {
+  padding-top: 36px !important;
+}
+
+ul.storeed img {
+  width: 250px;
+}
 
 .scan_qr_image{
   display: flex;
@@ -3321,7 +3329,7 @@ a:hover {
 }
 
 .scan_qr_image img{
-  width: 55%;
+  width: 65%;
 }
 .playbuttons li{
   margin-bottom: 1rem;
@@ -3401,8 +3409,8 @@ font-weight: 700;
   position: absolute;
   left: 50%;
   top: 1.7%;
-  bottom: 1%;
-  width: 3px;
+  bottom: 3.5%;
+  width: 2px;
   background-color: #214360;
   transform: translateX(-50%);
   z-index: 1;
@@ -3428,23 +3436,23 @@ font-weight: 700;
 }
 
 .dot-3 {
-  top: 41%;
+  top: 40%;
 }
 
 .dot-4 {
-  top: 55%;
+  top: 53%;
 }
 
 .dot-5 {
-  top: 66%;
+  top: 64%;
 }
 
 .dot-6 {
-  top: 80%;
+  top: 77%;
 }
 
 .dot-7 {
-  top: 92.5%;
+  top: 90%;
 }
 
 .download_step_section {
@@ -3510,4 +3518,25 @@ font-weight: 700;
 
 .in-mobile {
   display: none;
+}
+
+.last-qr {
+  text-align-last: end;
+}
+
+.last-qr img{
+  width: 83%;
+  padding-top: 13px;
+}
+
+.custom-left{
+  padding-left: 0px !important;
+}
+
+.custom-right{
+  padding-right: 0px !important;
+}
+
+.custom-padding-none{
+  padding: 0px !important;
 }

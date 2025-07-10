@@ -3143,6 +3143,8 @@
 
     .vertical-line {
       left: 5%;
+      top: 1.3%;
+      bottom: 1.2%;
     }
 
     .dot {
@@ -3150,7 +3152,7 @@
     }
 
     .dot-1 {
-      top: 2.5%;
+      top: 2%;
     }
 
     .dot-2 {
@@ -3158,23 +3160,23 @@
     }
 
     .dot-3 {
-      top: 36.5%;
+      top: 35%;
     }
 
     .dot-4 {
-      top: 49.5%;
+      top: 48.5%;
     }
 
     .dot-5 {
-      top: 62%;
+      top: 61%;
     }
 
     .dot-6 {
-      top: 73%;
+      top: 72%;
     }
 
     .dot-7 {
-      top: 87.5%;
+      top: 85.7%;
     }
 
     .download_step_image {
@@ -3196,6 +3198,10 @@
 
     .download_step_wrapper {
       padding: 50px 0px 50px 0px;
+    }
+
+    .custom-mob-padding {
+      padding: 80px 0px 0px 0px !important;
     }
 
     .blue_div {
@@ -3325,6 +3331,33 @@
 
     .download_step_section .main_head {
       padding-bottom: 10px;
+    }
+
+    .storeeds img {
+      width: 250px;
+    }
+
+    .storeeds {
+      flex-direction: column;
+    }
+
+    .container.download_step {
+      padding-left: 18px !important; 
+      padding-right: 20px !important;
+      padding-bottom: 35px !important;
+    }
+
+    .custom-banner-mob {
+      padding: 0px !important;
+    }
+
+    .no-padding-mobile {
+      padding: 30px 0px 30px 0px;
+    }
+
+    .qr_section {
+      padding-left: 15px;
+      padding-right: 15px;
     }
 
 
